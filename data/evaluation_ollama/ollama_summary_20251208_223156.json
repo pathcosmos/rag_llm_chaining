@@ -1,0 +1,24 @@
+{
+  "total_tests": 10,
+  "model": "llama3.1:8b-instruct-q8_0",
+  "overall": {
+    "llm_keyword_avg": 0.5233333333333333,
+    "rag_keyword_avg": 0.6016666666666667,
+    "llm_time_avg": 2.959,
+    "rag_time_avg": 2.494,
+    "improvement": 0.07833333333333332
+  },
+  "comparison": {
+    "rag_wins": 4,
+    "llm_wins": 1,
+    "ties": 5,
+    "rag_win_rate": 40.0
+  },
+  "by_category": {
+    "case_specific": {
+      "llm_avg": 0.5233333333333333,
+      "rag_avg": 0.6016666666666667,
+      "improvement": 0.07833333333333332
+    }
+  }
+}

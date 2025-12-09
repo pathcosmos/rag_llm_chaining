@@ -1,0 +1,521 @@
+
+12/08 21:48:59 [[1;32mNOTICE[0m] Downloading 18 item(s)
+
+12/08 21:48:59 [[1;32mNOTICE[0m] CUID#7 - Redirecting to https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/.gitattributes?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fmain%2F.gitattributes=&etag=%22a6344aac8c09253b3b630fb776ae94478aa0275b%22
+
+12/08 21:48:59 [[1;32mNOTICE[0m] Download complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/.gitattributes
+
+12/08 21:48:59 [[1;32mNOTICE[0m] CUID#8 - Redirecting to https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/LICENSE?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fmain%2FLICENSE=&etag=%226634c8cc3133b3848ec74b9f275acaaa1ea618ab%22
+
+12/08 21:49:00 [[1;32mNOTICE[0m] CUID#9 - Redirecting to https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/README.md?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fmain%2FREADME.md=&etag=%22cdb53558f3d3871db6823dd95ecac029044757a0%22
+
+12/08 21:49:00 [[1;32mNOTICE[0m] Download complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/LICENSE
+
+12/08 21:49:00 [[1;32mNOTICE[0m] Download complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/README.md
+[DL:31KiB][#485e03 0B/0B][#7bee85 0B/0B]
+
+12/08 21:49:00 [[1;32mNOTICE[0m] CUID#10 - Redirecting to https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/config.json?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fmain%2Fconfig.json=&etag=%22172d20a3d7fc27df9ed89628cafdbaf1a773ddc1%22
+
+12/08 21:49:00 [[1;32mNOTICE[0m] CUID#11 - Redirecting to https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/generation_config.json?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fmain%2Fgeneration_config.json=&etag=%22bf077f03dc569cfb8a90b3ec1ad20365a620bad6%22
+
+12/08 21:49:00 [[1;32mNOTICE[0m] Download complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/config.json
+
+12/08 21:49:00 [[1;32mNOTICE[0m] Download complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/generation_config.json
+
+12/08 21:49:00 [[1;32mNOTICE[0m] CUID#12 - Redirecting to https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-14B-Instruct/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/merges.txt?%2FQwen%2FQwen2.5-14B-Instruct%2Fresolve%2Fmain%2Fmerges.txt=&etag=%2220024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0%22
+
+12/08 21:49:00 [[1;32mNOTICE[0m] CUID#13 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81cdaa3681387ffc12b55/520b35e3f1137df4a8c431bd622aeaf4bc782793b48196a339c5e6480df6d660?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251208%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251208T124900Z&X-Amz-Expires=3600&X-Amz-Signature=bc15012a4ec2750ac9223365ad18780c5c13a3884eb28d4b4519aee470105d1f&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=684aa7e3c52aca2fa1a2e0df&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00008.safetensors%3B+filename%3D%22model-00001-of-00008.safetensors%22%3B&x-id=GetObject&Expires=1765201740&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NTIwMTc0MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82NmU4MWNkYWEzNjgxMzg3ZmZjMTJiNTUvNTIwYjM1ZTNmMTEzN2RmNGE4YzQzMWJkNjIyYWVhZjRiYzc4Mjc5M2I0ODE5NmEzMzljNWU2NDgwZGY2ZDY2MCoifV19&Signature=hY7bXlOR2QjCbl8YQLwrOdKajdSWeHmFNSRdiZZp8Kw23cVL5t66nDFxmwc6SgyiYnbavZkCitokRquV7Fe%7EgmNn7M2rdu9%7E1a8eX0jC-tQ4cgFo0bFKDKcGfLJBPv0HLdirXNSkpc8SVvLK68gImWst0pTsyk5FQvuo87uO9ipneBICaADPLVgMJFqe02ccva4kc2GblMwaHBF9FE-JeOKGxapUV1QJVLKvN5reau%7EueTdN5wldlY8KrFuDE%7E1%7EoxJD7rWEaw1ePkMU2PKerlWPZ63qMGxgQ6ahCHjZYtGxaCnF-NbutTrh40V-R5%7Ei85OQb9offwuJDA9rq4typA__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/08 21:49:01 [[1;32mNOTICE[0m] CUID#15 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81cdaa3681387ffc12b55/520b35e3f1137df4a8c431bd622aeaf4bc782793b48196a339c5e6480df6d660?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251208%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251208T124901Z&X-Amz-Expires=3600&X-Amz-Signature=2a2339df1cabfe3e48d214cb924a70a91b291982a2eb7f8942878a195376a590&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=684aa7e3c52aca2fa1a2e0df&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00008.safetensors%3B+filename%3D%22model-00001-of-00008.safetensors%22%3B&x-id=GetObject&Expires=1765201741&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NTIwMTc0MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82NmU4MWNkYWEzNjgxMzg3ZmZjMTJiNTUvNTIwYjM1ZTNmMTEzN2RmNGE4YzQzMWJkNjIyYWVhZjRiYzc4Mjc5M2I0ODE5NmEzMzljNWU2NDgwZGY2ZDY2MCoifV19&Signature=HA-hc0MxrOqiDVaeosiNbMFPEkxOP4cAdQNc6sdDPygd4udAm9U0CKVdkiIDsStaA88olPfEatRNW8IMrVcoIZmOQaJy71ZqqHPcvTkMq61WXQ76w2P4oMHxTI7rG9vGg%7ESVz9DVvf9hVrQCTvuXmKJq7ER%7EpkMp27bOBlClSsAh7YzU5F3M1sRADAVmpjQ%7EAYy-PMX02wG4IuLBAehOd8xzFc3gaP7dAOc8UBalcsBV2SuCqSCdl9GHxZ%7EdU%7EAsf-z%7Ej6HjDt2vuQQ4bmJ1WxL1jPT9H2OtQBfeWxgLkkDgq4VHClDe7ikqo7xNkey7kgjdD33zrmZOWPzedw4vqw__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/08 21:49:01 [[1;32mNOTICE[0m] CUID#16 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81cdaa3681387ffc12b55/520b35e3f1137df4a8c431bd622aeaf4bc782793b48196a339c5e6480df6d660?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251208%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251208T124901Z&X-Amz-Expires=3600&X-Amz-Signature=2a2339df1cabfe3e48d214cb924a70a91b291982a2eb7f8942878a195376a590&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=684aa7e3c52aca2fa1a2e0df&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00008.safetensors%3B+filename%3D%22model-00001-of-00008.safetensors%22%3B&x-id=GetObject&Expires=1765201741&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NTIwMTc0MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82NmU4MWNkYWEzNjgxMzg3ZmZjMTJiNTUvNTIwYjM1ZTNmMTEzN2RmNGE4YzQzMWJkNjIyYWVhZjRiYzc4Mjc5M2I0ODE5NmEzMzljNWU2NDgwZGY2ZDY2MCoifV19&Signature=HA-hc0MxrOqiDVaeosiNbMFPEkxOP4cAdQNc6sdDPygd4udAm9U0CKVdkiIDsStaA88olPfEatRNW8IMrVcoIZmOQaJy71ZqqHPcvTkMq61WXQ76w2P4oMHxTI7rG9vGg%7ESVz9DVvf9hVrQCTvuXmKJq7ER%7EpkMp27bOBlClSsAh7YzU5F3M1sRADAVmpjQ%7EAYy-PMX02wG4IuLBAehOd8xzFc3gaP7dAOc8UBalcsBV2SuCqSCdl9GHxZ%7EdU%7EAsf-z%7Ej6HjDt2vuQQ4bmJ1WxL1jPT9H2OtQBfeWxgLkkDgq4VHClDe7ikqo7xNkey7kgjdD33zrmZOWPzedw4vqw__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/08 21:49:01 [[1;32mNOTICE[0m] CUID#17 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81cdaa3681387ffc12b55/520b35e3f1137df4a8c431bd622aeaf4bc782793b48196a339c5e6480df6d660?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251208%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251208T124901Z&X-Amz-Expires=3600&X-Amz-Signature=2a2339df1cabfe3e48d214cb924a70a91b291982a2eb7f8942878a195376a590&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=684aa7e3c52aca2fa1a2e0df&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00008.safetensors%3B+filename%3D%22model-00001-of-00008.safetensors%22%3B&x-id=GetObject&Expires=1765201741&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NTIwMTc0MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82NmU4MWNkYWEzNjgxMzg3ZmZjMTJiNTUvNTIwYjM1ZTNmMTEzN2RmNGE4YzQzMWJkNjIyYWVhZjRiYzc4Mjc5M2I0ODE5NmEzMzljNWU2NDgwZGY2ZDY2MCoifV19&Signature=HA-hc0MxrOqiDVaeosiNbMFPEkxOP4cAdQNc6sdDPygd4udAm9U0CKVdkiIDsStaA88olPfEatRNW8IMrVcoIZmOQaJy71ZqqHPcvTkMq61WXQ76w2P4oMHxTI7rG9vGg%7ESVz9DVvf9hVrQCTvuXmKJq7ER%7EpkMp27bOBlClSsAh7YzU5F3M1sRADAVmpjQ%7EAYy-PMX02wG4IuLBAehOd8xzFc3gaP7dAOc8UBalcsBV2SuCqSCdl9GHxZ%7EdU%7EAsf-z%7Ej6HjDt2vuQQ4bmJ1WxL1jPT9H2OtQBfeWxgLkkDgq4VHClDe7ikqo7xNkey7kgjdD33zrmZOWPzedw4vqw__&Key-Pair-Id=K2L8F4GPSG1IFC
+[DL:537KiB][#6b1a01 16KiB/1.5MiB(0%)][#79f81f 784KiB/3.6GiB(0%)]
+[DL:4.5MiB][#6b1a01 1.0MiB/1.5MiB(64%)][#79f81f 10MiB/3.6GiB(0%)]
+
+12/08 21:49:02 [[1;32mNOTICE[0m] Download complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/merges.txt
+
+12/08 21:49:03 [[1;32mNOTICE[0m] CUID#19 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81cdaa3681387ffc12b55/f3359735ecaf1e886438608b712c74d445104481a791c687060019bf555ef2ce?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251208%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251208T124902Z&X-Amz-Expires=3600&X-Amz-Signature=cf387c28bc94a617e7291d33d36e8c379a6383784ac71d0e5d7eff03791f7870&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=684aa7e3c52aca2fa1a2e0df&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00002-of-00008.safetensors%3B+filename%3D%22model-00002-of-00008.safetensors%22%3B&x-id=GetObject&Expires=1765201742&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NTIwMTc0Mn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82NmU4MWNkYWEzNjgxMzg3ZmZjMTJiNTUvZjMzNTk3MzVlY2FmMWU4ODY0Mzg2MDhiNzEyYzc0ZDQ0NTEwNDQ4MWE3OTFjNjg3MDYwMDE5YmY1NTVlZjJjZSoifV19&Signature=RDhxnBLaA35HA6A-AhR6kLrA51n47adIanpAmn9PEiRcJekxyGG463aeA%7E%7E%7Ef3AD-NiX1TmHGIxIATQEpeFG5OSM6SIqQL0wn5QvZG4b%7ETPxLR7cfzrDRNO2a-U4tuycHjHuXvhTDgtll4IckKffQNa1fHxd6N0FBzSg0BoI-wi2aOnQPXw47EdSadb04bHllWqhItkqVffO2HM%7EnN69VnvnFL3D3vlKIE0aUIohXn2F-AffpKKJl-08HBtpLwDYpE%7EIKIjJmWutixamcNBYm7HPZPkKbo5LRLe7jtFhkSzAN5qAbAV1QPsFVugUZD3AaSSk4oCzcfMZ-Pi4QEETRg__&Key-Pair-Id=K2L8F4GPSG1IFC
+[DL:6.4MiB][#79f81f 21MiB/3.6GiB(0%)][#b610df 16KiB/3.7GiB(0%)]
+
+12/08 21:49:03 [[1;32mNOTICE[0m] CUID#21 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81cdaa3681387ffc12b55/f3359735ecaf1e886438608b712c74d445104481a791c687060019bf555ef2ce?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251208%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251208T124903Z&X-Amz-Expires=3600&X-Amz-Signature=c8b3a372279388e800a6d43bd389d6f4a0bf1ad3b5c33eaebbaa9094611f5473&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=684aa7e3c52aca2fa1a2e0df&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00002-of-00008.safetensors%3B+filename%3D%22model-00002-of-00008.safetensors%22%3B&x-id=GetObject&Expires=1765201743&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NTIwMTc0M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82NmU4MWNkYWEzNjgxMzg3ZmZjMTJiNTUvZjMzNTk3MzVlY2FmMWU4ODY0Mzg2MDhiNzEyYzc0ZDQ0NTEwNDQ4MWE3OTFjNjg3MDYwMDE5YmY1NTVlZjJjZSoifV19&Signature=a4R%7EuOoWezFiXelf9Mn2jAbi-2oJaB2KRb3Tpp8-rHfnNtkNG9riFznfoaxa-I-6X%7E%7EMmzFNsDAY592ggptUZIYwDci8y8rvKOv4IcIVUHrsMCxoWqR0l7bnvjSi5TLS-9yKlgmfYQy%7EyPCGdR0P7hayoikwNVbL4SXA52ijVg6USy1c07CFvcXjwDVH39Zb8Alq3zVxgVujqA1jpils9gm40PKzdOSIF0K2F32SB6gzDV7Pxhl7g3soXsTwW3rs3YCdm8-UPl5ov9sWOObW2kUIDLLCndq5mxAffKyw8zg8LcNP5JbIPhAHvEKkHUBd1eoDTLnYHJRgRQT94aY12A__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/08 21:49:03 [[1;32mNOTICE[0m] CUID#22 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81cdaa3681387ffc12b55/f3359735ecaf1e886438608b712c74d445104481a791c687060019bf555ef2ce?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251208%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251208T124903Z&X-Amz-Expires=3600&X-Amz-Signature=c8b3a372279388e800a6d43bd389d6f4a0bf1ad3b5c33eaebbaa9094611f5473&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=684aa7e3c52aca2fa1a2e0df&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00002-of-00008.safetensors%3B+filename%3D%22model-00002-of-00008.safetensors%22%3B&x-id=GetObject&Expires=1765201743&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NTIwMTc0M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82NmU4MWNkYWEzNjgxMzg3ZmZjMTJiNTUvZjMzNTk3MzVlY2FmMWU4ODY0Mzg2MDhiNzEyYzc0ZDQ0NTEwNDQ4MWE3OTFjNjg3MDYwMDE5YmY1NTVlZjJjZSoifV19&Signature=a4R%7EuOoWezFiXelf9Mn2jAbi-2oJaB2KRb3Tpp8-rHfnNtkNG9riFznfoaxa-I-6X%7E%7EMmzFNsDAY592ggptUZIYwDci8y8rvKOv4IcIVUHrsMCxoWqR0l7bnvjSi5TLS-9yKlgmfYQy%7EyPCGdR0P7hayoikwNVbL4SXA52ijVg6USy1c07CFvcXjwDVH39Zb8Alq3zVxgVujqA1jpils9gm40PKzdOSIF0K2F32SB6gzDV7Pxhl7g3soXsTwW3rs3YCdm8-UPl5ov9sWOObW2kUIDLLCndq5mxAffKyw8zg8LcNP5JbIPhAHvEKkHUBd1eoDTLnYHJRgRQT94aY12A__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/08 21:49:03 [[1;32mNOTICE[0m] CUID#23 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81cdaa3681387ffc12b55/f3359735ecaf1e886438608b712c74d445104481a791c687060019bf555ef2ce?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251208%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251208T124903Z&X-Amz-Expires=3600&X-Amz-Signature=c8b3a372279388e800a6d43bd389d6f4a0bf1ad3b5c33eaebbaa9094611f5473&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=684aa7e3c52aca2fa1a2e0df&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00002-of-00008.safetensors%3B+filename%3D%22model-00002-of-00008.safetensors%22%3B&x-id=GetObject&Expires=1765201743&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NTIwMTc0M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82NmU4MWNkYWEzNjgxMzg3ZmZjMTJiNTUvZjMzNTk3MzVlY2FmMWU4ODY0Mzg2MDhiNzEyYzc0ZDQ0NTEwNDQ4MWE3OTFjNjg3MDYwMDE5YmY1NTVlZjJjZSoifV19&Signature=a4R%7EuOoWezFiXelf9Mn2jAbi-2oJaB2KRb3Tpp8-rHfnNtkNG9riFznfoaxa-I-6X%7E%7EMmzFNsDAY592ggptUZIYwDci8y8rvKOv4IcIVUHrsMCxoWqR0l7bnvjSi5TLS-9yKlgmfYQy%7EyPCGdR0P7hayoikwNVbL4SXA52ijVg6USy1c07CFvcXjwDVH39Zb8Alq3zVxgVujqA1jpils9gm40PKzdOSIF0K2F32SB6gzDV7Pxhl7g3soXsTwW3rs3YCdm8-UPl5ov9sWOObW2kUIDLLCndq5mxAffKyw8zg8LcNP5JbIPhAHvEKkHUBd1eoDTLnYHJRgRQT94aY12A__&Key-Pair-Id=K2L8F4GPSG1IFC
+[DL:7.4MiB][#79f81f 30MiB/3.6GiB(0%)][#b610df 2.0MiB/3.7GiB(0%)]
+[DL:8.0MiB][#79f81f 36MiB/3.6GiB(0%)][#b610df 6.7MiB/3.7GiB(0%)]
+[DL:8.5MiB][#79f81f 42MiB/3.6GiB(1%)][#b610df 11MiB/3.7GiB(0%)]
+[DL:8.8MiB][#79f81f 47MiB/3.6GiB(1%)][#b610df 17MiB/3.7GiB(0%)]
+[DL:9.1MiB][#79f81f 52MiB/3.6GiB(1%)][#b610df 23MiB/3.7GiB(0%)]
+[DL:9.3MiB][#79f81f 57MiB/3.6GiB(1%)][#b610df 29MiB/3.7GiB(0%)]
+[DL:10MiB][#79f81f 62MiB/3.6GiB(1%)][#b610df 35MiB/3.7GiB(0%)]
+[DL:11MiB][#79f81f 66MiB/3.6GiB(1%)][#b610df 41MiB/3.7GiB(1%)]
+[DL:11MiB][#79f81f 70MiB/3.6GiB(1%)][#b610df 49MiB/3.7GiB(1%)]
+[DL:11MiB][#79f81f 75MiB/3.6GiB(2%)][#b610df 55MiB/3.7GiB(1%)]
+[DL:10MiB][#79f81f 80MiB/3.6GiB(2%)][#b610df 60MiB/3.7GiB(1%)]
+[DL:10MiB][#79f81f 84MiB/3.6GiB(2%)][#b610df 66MiB/3.7GiB(1%)]
+[DL:10MiB][#79f81f 90MiB/3.6GiB(2%)][#b610df 71MiB/3.7GiB(1%)]
+[DL:10MiB][#79f81f 95MiB/3.6GiB(2%)][#b610df 77MiB/3.7GiB(2%)]
+[DL:10MiB][#79f81f 100MiB/3.6GiB(2%)][#b610df 83MiB/3.7GiB(2%)]
+[DL:10MiB][#79f81f 106MiB/3.6GiB(2%)][#b610df 88MiB/3.7GiB(2%)]
+[DL:10MiB][#79f81f 110MiB/3.6GiB(2%)][#b610df 94MiB/3.7GiB(2%)]
+[DL:10MiB][#79f81f 115MiB/3.6GiB(3%)][#b610df 101MiB/3.7GiB(2%)]
+[DL:10MiB][#79f81f 120MiB/3.6GiB(3%)][#b610df 107MiB/3.7GiB(2%)]
+[DL:10MiB][#79f81f 125MiB/3.6GiB(3%)][#b610df 113MiB/3.7GiB(2%)]
+[DL:11MiB][#79f81f 130MiB/3.6GiB(3%)][#b610df 119MiB/3.7GiB(3%)]
+[DL:11MiB][#79f81f 134MiB/3.6GiB(3%)][#b610df 125MiB/3.7GiB(3%)]
+[DL:11MiB][#79f81f 139MiB/3.6GiB(3%)][#b610df 131MiB/3.7GiB(3%)]
+[DL:11MiB][#79f81f 144MiB/3.6GiB(3%)][#b610df 137MiB/3.7GiB(3%)]
+[DL:11MiB][#79f81f 150MiB/3.6GiB(4%)][#b610df 142MiB/3.7GiB(3%)]
+[DL:11MiB][#79f81f 155MiB/3.6GiB(4%)][#b610df 147MiB/3.7GiB(3%)]
+ *** Download Progress Summary as of Mon Dec  8 21:49:30 2025 *** 
+===============================================================================
+[#79f81f 160MiB/3.6GiB(4%) CN:4 DL:5.0MiB ETA:11m42s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00001-of-00008.safetensors
+-------------------------------------------------------------------------------
+[#b610df 152MiB/3.7GiB(4%) CN:4 DL:5.8MiB ETA:10m25s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00002-of-00008.safetensors
+-------------------------------------------------------------------------------
+
+[DL:10MiB][#79f81f 160MiB/3.6GiB(4%)][#b610df 152MiB/3.7GiB(4%)]
+[DL:10MiB][#79f81f 165MiB/3.6GiB(4%)][#b610df 158MiB/3.7GiB(4%)]
+[DL:10MiB][#79f81f 171MiB/3.6GiB(4%)][#b610df 164MiB/3.7GiB(4%)]
+[DL:10MiB][#79f81f 176MiB/3.6GiB(4%)][#b610df 169MiB/3.7GiB(4%)]
+[DL:10MiB][#79f81f 182MiB/3.6GiB(4%)][#b610df 174MiB/3.7GiB(4%)]
+[DL:10MiB][#79f81f 189MiB/3.6GiB(5%)][#b610df 179MiB/3.7GiB(4%)]
+[DL:10MiB][#79f81f 194MiB/3.6GiB(5%)][#b610df 183MiB/3.7GiB(4%)]
+[DL:10MiB][#79f81f 200MiB/3.6GiB(5%)][#b610df 188MiB/3.7GiB(4%)]
+[DL:10MiB][#79f81f 206MiB/3.6GiB(5%)][#b610df 193MiB/3.7GiB(5%)]
+[DL:10MiB][#79f81f 212MiB/3.6GiB(5%)][#b610df 198MiB/3.7GiB(5%)]
+[DL:10MiB][#79f81f 218MiB/3.6GiB(5%)][#b610df 203MiB/3.7GiB(5%)]
+[DL:10MiB][#79f81f 224MiB/3.6GiB(6%)][#b610df 208MiB/3.7GiB(5%)]
+[DL:10MiB][#79f81f 230MiB/3.6GiB(6%)][#b610df 213MiB/3.7GiB(5%)]
+[DL:10MiB][#79f81f 236MiB/3.6GiB(6%)][#b610df 218MiB/3.7GiB(5%)]
+[DL:10MiB][#79f81f 242MiB/3.6GiB(6%)][#b610df 223MiB/3.7GiB(5%)]
+[DL:10MiB][#79f81f 247MiB/3.6GiB(6%)][#b610df 228MiB/3.7GiB(5%)]
+[DL:10MiB][#79f81f 251MiB/3.6GiB(6%)][#b610df 232MiB/3.7GiB(6%)]
+[DL:10MiB][#79f81f 257MiB/3.6GiB(6%)][#b610df 237MiB/3.7GiB(6%)]
+[DL:10MiB][#79f81f 263MiB/3.6GiB(7%)][#b610df 242MiB/3.7GiB(6%)]
+[DL:10MiB][#79f81f 269MiB/3.6GiB(7%)][#b610df 247MiB/3.7GiB(6%)]
+[DL:10MiB][#79f81f 275MiB/3.6GiB(7%)][#b610df 252MiB/3.7GiB(6%)]
+[DL:10MiB][#79f81f 282MiB/3.6GiB(7%)][#b610df 257MiB/3.7GiB(6%)]
+[DL:10MiB][#79f81f 288MiB/3.6GiB(7%)][#b610df 261MiB/3.7GiB(6%)]
+[DL:10MiB][#79f81f 294MiB/3.6GiB(7%)][#b610df 266MiB/3.7GiB(7%)]
+[DL:10MiB][#79f81f 300MiB/3.6GiB(8%)][#b610df 271MiB/3.7GiB(7%)]
+[DL:10MiB][#79f81f 306MiB/3.6GiB(8%)][#b610df 276MiB/3.7GiB(7%)]
+[DL:11MiB][#79f81f 312MiB/3.6GiB(8%)][#b610df 281MiB/3.7GiB(7%)]
+[DL:11MiB][#79f81f 317MiB/3.6GiB(8%)][#b610df 286MiB/3.7GiB(7%)]
+[DL:11MiB][#79f81f 323MiB/3.6GiB(8%)][#b610df 292MiB/3.7GiB(7%)]
+[DL:11MiB][#79f81f 328MiB/3.6GiB(8%)][#b610df 297MiB/3.7GiB(7%)]
+[DL:10MiB][#79f81f 334MiB/3.6GiB(9%)][#b610df 302MiB/3.7GiB(7%)]
+ *** Download Progress Summary as of Mon Dec  8 21:50:00 2025 *** 
+===============================================================================
+[#79f81f 339MiB/3.6GiB(9%) CN:4 DL:5.7MiB ETA:9m46s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00001-of-00008.safetensors
+-------------------------------------------------------------------------------
+[#b610df 307MiB/3.7GiB(8%) CN:4 DL:5.1MiB ETA:11m24s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00002-of-00008.safetensors
+-------------------------------------------------------------------------------
+
+[DL:10MiB][#79f81f 339MiB/3.6GiB(9%)][#b610df 307MiB/3.7GiB(8%)]
+[DL:10MiB][#79f81f 345MiB/3.6GiB(9%)][#b610df 312MiB/3.7GiB(8%)]
+[DL:10MiB][#79f81f 351MiB/3.6GiB(9%)][#b610df 317MiB/3.7GiB(8%)]
+[DL:10MiB][#79f81f 357MiB/3.6GiB(9%)][#b610df 322MiB/3.7GiB(8%)]
+[DL:10MiB][#79f81f 362MiB/3.6GiB(9%)][#b610df 327MiB/3.7GiB(8%)]
+[DL:10MiB][#79f81f 368MiB/3.6GiB(9%)][#b610df 332MiB/3.7GiB(8%)]
+[DL:10MiB][#79f81f 374MiB/3.6GiB(10%)][#b610df 337MiB/3.7GiB(8%)]
+[DL:10MiB][#79f81f 380MiB/3.6GiB(10%)][#b610df 342MiB/3.7GiB(8%)]
+[DL:10MiB][#79f81f 386MiB/3.6GiB(10%)][#b610df 347MiB/3.7GiB(9%)]
+[DL:10MiB][#79f81f 391MiB/3.6GiB(10%)][#b610df 352MiB/3.7GiB(9%)]
+[DL:10MiB][#79f81f 397MiB/3.6GiB(10%)][#b610df 357MiB/3.7GiB(9%)]
+[DL:10MiB][#79f81f 403MiB/3.6GiB(10%)][#b610df 363MiB/3.7GiB(9%)]
+[DL:10MiB][#79f81f 409MiB/3.6GiB(11%)][#b610df 368MiB/3.7GiB(9%)]
+[DL:11MiB][#79f81f 414MiB/3.6GiB(11%)][#b610df 373MiB/3.7GiB(9%)]
+[DL:10MiB][#79f81f 420MiB/3.6GiB(11%)][#b610df 378MiB/3.7GiB(9%)]
+[DL:10MiB][#79f81f 425MiB/3.6GiB(11%)][#b610df 383MiB/3.7GiB(10%)]
+[DL:10MiB][#79f81f 430MiB/3.6GiB(11%)][#b610df 387MiB/3.7GiB(10%)]
+[DL:10MiB][#79f81f 436MiB/3.6GiB(11%)][#b610df 393MiB/3.7GiB(10%)]
+[DL:10MiB][#79f81f 441MiB/3.6GiB(11%)][#b610df 398MiB/3.7GiB(10%)]
+[DL:10MiB][#79f81f 447MiB/3.6GiB(12%)][#b610df 403MiB/3.7GiB(10%)]
+[DL:10MiB][#79f81f 453MiB/3.6GiB(12%)][#b610df 408MiB/3.7GiB(10%)]
+[DL:10MiB][#79f81f 459MiB/3.6GiB(12%)][#b610df 413MiB/3.7GiB(10%)]
+[DL:10MiB][#79f81f 465MiB/3.6GiB(12%)][#b610df 418MiB/3.7GiB(10%)]
+[DL:10MiB][#79f81f 471MiB/3.6GiB(12%)][#b610df 423MiB/3.7GiB(11%)]
+[DL:10MiB][#79f81f 477MiB/3.6GiB(12%)][#b610df 428MiB/3.7GiB(11%)]
+[DL:10MiB][#79f81f 483MiB/3.6GiB(13%)][#b610df 434MiB/3.7GiB(11%)]
+[DL:11MiB][#79f81f 488MiB/3.6GiB(13%)][#b610df 439MiB/3.7GiB(11%)]
+[DL:10MiB][#79f81f 493MiB/3.6GiB(13%)][#b610df 443MiB/3.7GiB(11%)]
+[DL:10MiB][#79f81f 499MiB/3.6GiB(13%)][#b610df 449MiB/3.7GiB(11%)]
+[DL:10MiB][#79f81f 504MiB/3.6GiB(13%)][#b610df 454MiB/3.7GiB(11%)]
+[DL:10MiB][#79f81f 509MiB/3.6GiB(13%)][#b610df 458MiB/3.7GiB(12%)]
+ *** Download Progress Summary as of Mon Dec  8 21:50:31 2025 *** 
+===============================================================================
+[#79f81f 515MiB/3.6GiB(13%) CN:4 DL:5.6MiB ETA:9m28s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00001-of-00008.safetensors
+-------------------------------------------------------------------------------
+[#b610df 463MiB/3.7GiB(12%) CN:4 DL:5.0MiB ETA:11m5s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00002-of-00008.safetensors
+-------------------------------------------------------------------------------
+
+[DL:10MiB][#79f81f 515MiB/3.6GiB(13%)][#b610df 463MiB/3.7GiB(12%)]
+[DL:10MiB][#79f81f 521MiB/3.6GiB(14%)][#b610df 468MiB/3.7GiB(12%)]
+[DL:10MiB][#79f81f 526MiB/3.6GiB(14%)][#b610df 474MiB/3.7GiB(12%)]
+[DL:10MiB][#79f81f 532MiB/3.6GiB(14%)][#b610df 479MiB/3.7GiB(12%)]
+[DL:10MiB][#79f81f 537MiB/3.6GiB(14%)][#b610df 485MiB/3.7GiB(12%)]
+[DL:10MiB][#79f81f 542MiB/3.6GiB(14%)][#b610df 490MiB/3.7GiB(12%)]
+[DL:10MiB][#79f81f 547MiB/3.6GiB(14%)][#b610df 496MiB/3.7GiB(13%)]
+[DL:10MiB][#79f81f 552MiB/3.6GiB(14%)][#b610df 501MiB/3.7GiB(13%)]
+[DL:10MiB][#79f81f 558MiB/3.6GiB(15%)][#b610df 507MiB/3.7GiB(13%)]
+[DL:10MiB][#79f81f 563MiB/3.6GiB(15%)][#b610df 512MiB/3.7GiB(13%)]
+[DL:10MiB][#79f81f 569MiB/3.6GiB(15%)][#b610df 518MiB/3.7GiB(13%)]
+[DL:10MiB][#79f81f 575MiB/3.6GiB(15%)][#b610df 523MiB/3.7GiB(13%)]
+[DL:10MiB][#79f81f 580MiB/3.6GiB(15%)][#b610df 528MiB/3.7GiB(13%)]
+[DL:10MiB][#79f81f 586MiB/3.6GiB(15%)][#b610df 533MiB/3.7GiB(14%)]
+[DL:10MiB][#79f81f 592MiB/3.6GiB(15%)][#b610df 538MiB/3.7GiB(14%)]
+[DL:10MiB][#79f81f 598MiB/3.6GiB(16%)][#b610df 543MiB/3.7GiB(14%)]
+[DL:10MiB][#79f81f 603MiB/3.6GiB(16%)][#b610df 547MiB/3.7GiB(14%)]
+[DL:10MiB][#79f81f 609MiB/3.6GiB(16%)][#b610df 552MiB/3.7GiB(14%)]
+[DL:10MiB][#79f81f 615MiB/3.6GiB(16%)][#b610df 557MiB/3.7GiB(14%)]
+[DL:10MiB][#79f81f 621MiB/3.6GiB(16%)][#b610df 562MiB/3.7GiB(14%)]
+[DL:10MiB][#79f81f 627MiB/3.6GiB(16%)][#b610df 567MiB/3.7GiB(14%)]
+[DL:10MiB][#79f81f 633MiB/3.6GiB(17%)][#b610df 572MiB/3.7GiB(15%)]
+[DL:10MiB][#79f81f 639MiB/3.6GiB(17%)][#b610df 577MiB/3.7GiB(15%)]
+[DL:10MiB][#79f81f 645MiB/3.6GiB(17%)][#b610df 581MiB/3.7GiB(15%)]
+[DL:10MiB][#79f81f 651MiB/3.6GiB(17%)][#b610df 586MiB/3.7GiB(15%)]
+[DL:10MiB][#79f81f 657MiB/3.6GiB(17%)][#b610df 591MiB/3.7GiB(15%)]
+[DL:11MiB][#79f81f 663MiB/3.6GiB(17%)][#b610df 596MiB/3.7GiB(15%)]
+[DL:10MiB][#79f81f 669MiB/3.6GiB(18%)][#b610df 600MiB/3.7GiB(15%)]
+[DL:10MiB][#79f81f 675MiB/3.6GiB(18%)][#b610df 605MiB/3.7GiB(15%)]
+[DL:10MiB][#79f81f 681MiB/3.6GiB(18%)][#b610df 609MiB/3.7GiB(15%)]
+[DL:10MiB][#79f81f 687MiB/3.6GiB(18%)][#b610df 613MiB/3.7GiB(16%)]
+ *** Download Progress Summary as of Mon Dec  8 21:51:02 2025 *** 
+===============================================================================
+[#79f81f 694MiB/3.6GiB(18%) CN:4 DL:6.1MiB ETA:8m7s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00001-of-00008.safetensors
+-------------------------------------------------------------------------------
+[#b610df 618MiB/3.7GiB(16%) CN:4 DL:4.6MiB ETA:11m28s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00002-of-00008.safetensors
+-------------------------------------------------------------------------------
+
+[DL:10MiB][#79f81f 694MiB/3.6GiB(18%)][#b610df 618MiB/3.7GiB(16%)]
+[DL:10MiB][#79f81f 700MiB/3.6GiB(18%)][#b610df 622MiB/3.7GiB(16%)]
+[DL:10MiB][#79f81f 707MiB/3.6GiB(19%)][#b610df 627MiB/3.7GiB(16%)]
+[DL:10MiB][#79f81f 713MiB/3.6GiB(19%)][#b610df 632MiB/3.7GiB(16%)]
+[DL:10MiB][#79f81f 719MiB/3.6GiB(19%)][#b610df 637MiB/3.7GiB(16%)]
+[DL:10MiB][#79f81f 725MiB/3.6GiB(19%)][#b610df 641MiB/3.7GiB(16%)]
+[DL:10MiB][#79f81f 731MiB/3.6GiB(19%)][#b610df 645MiB/3.7GiB(16%)]
+[DL:10MiB][#79f81f 737MiB/3.6GiB(19%)][#b610df 650MiB/3.7GiB(17%)]
+[DL:10MiB][#79f81f 743MiB/3.6GiB(20%)][#b610df 655MiB/3.7GiB(17%)]
+[DL:10MiB][#79f81f 749MiB/3.6GiB(20%)][#b610df 660MiB/3.7GiB(17%)]
+[DL:10MiB][#79f81f 755MiB/3.6GiB(20%)][#b610df 665MiB/3.7GiB(17%)]
+[DL:10MiB][#79f81f 761MiB/3.6GiB(20%)][#b610df 670MiB/3.7GiB(17%)]
+[DL:10MiB][#79f81f 767MiB/3.6GiB(20%)][#b610df 675MiB/3.7GiB(17%)]
+[DL:10MiB][#79f81f 772MiB/3.6GiB(20%)][#b610df 681MiB/3.7GiB(17%)]
+[DL:10MiB][#79f81f 778MiB/3.6GiB(21%)][#b610df 686MiB/3.7GiB(18%)]
+[DL:11MiB][#79f81f 784MiB/3.6GiB(21%)][#b610df 691MiB/3.7GiB(18%)]
+[DL:10MiB][#79f81f 789MiB/3.6GiB(21%)][#b610df 695MiB/3.7GiB(18%)]
+[DL:10MiB][#79f81f 794MiB/3.6GiB(21%)][#b610df 700MiB/3.7GiB(18%)]
+[DL:10MiB][#79f81f 800MiB/3.6GiB(21%)][#b610df 705MiB/3.7GiB(18%)]
+[DL:10MiB][#79f81f 806MiB/3.6GiB(21%)][#b610df 710MiB/3.7GiB(18%)]
+[DL:10MiB][#79f81f 812MiB/3.6GiB(21%)][#b610df 715MiB/3.7GiB(18%)]
+[DL:10MiB][#79f81f 818MiB/3.6GiB(22%)][#b610df 720MiB/3.7GiB(18%)]
+[DL:10MiB][#79f81f 824MiB/3.6GiB(22%)][#b610df 724MiB/3.7GiB(19%)]
+[DL:10MiB][#79f81f 830MiB/3.6GiB(22%)][#b610df 729MiB/3.7GiB(19%)]
+[DL:10MiB][#79f81f 836MiB/3.6GiB(22%)][#b610df 734MiB/3.7GiB(19%)]
+[DL:10MiB][#79f81f 842MiB/3.6GiB(22%)][#b610df 739MiB/3.7GiB(19%)]
+[DL:10MiB][#79f81f 848MiB/3.6GiB(22%)][#b610df 744MiB/3.7GiB(19%)]
+[DL:10MiB][#79f81f 853MiB/3.6GiB(23%)][#b610df 748MiB/3.7GiB(19%)]
+[DL:10MiB][#79f81f 859MiB/3.6GiB(23%)][#b610df 753MiB/3.7GiB(19%)]
+[DL:10MiB][#79f81f 865MiB/3.6GiB(23%)][#b610df 758MiB/3.7GiB(19%)]
+[DL:10MiB][#79f81f 871MiB/3.6GiB(23%)][#b610df 763MiB/3.7GiB(20%)]
+ *** Download Progress Summary as of Mon Dec  8 21:51:33 2025 *** 
+===============================================================================
+[#79f81f 877MiB/3.6GiB(23%) CN:4 DL:5.9MiB ETA:7m53s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00001-of-00008.safetensors
+-------------------------------------------------------------------------------
+[#b610df 768MiB/3.7GiB(20%) CN:4 DL:4.9MiB ETA:10m16s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00002-of-00008.safetensors
+-------------------------------------------------------------------------------
+
+[DL:10MiB][#79f81f 877MiB/3.6GiB(23%)][#b610df 768MiB/3.7GiB(20%)]
+[DL:10MiB][#79f81f 883MiB/3.6GiB(23%)][#b610df 774MiB/3.7GiB(20%)]
+[DL:10MiB][#79f81f 888MiB/3.6GiB(23%)][#b610df 779MiB/3.7GiB(20%)]
+[DL:10MiB][#79f81f 894MiB/3.6GiB(24%)][#b610df 785MiB/3.7GiB(20%)]
+[DL:10MiB][#79f81f 899MiB/3.6GiB(24%)][#b610df 790MiB/3.7GiB(20%)]
+[DL:11MiB][#79f81f 905MiB/3.6GiB(24%)][#b610df 796MiB/3.7GiB(20%)]
+[DL:10MiB][#79f81f 909MiB/3.6GiB(24%)][#b610df 801MiB/3.7GiB(21%)]
+[DL:10MiB][#79f81f 915MiB/3.6GiB(24%)][#b610df 806MiB/3.7GiB(21%)]
+[DL:10MiB][#79f81f 920MiB/3.6GiB(24%)][#b610df 812MiB/3.7GiB(21%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(24%)][#b610df 817MiB/3.7GiB(21%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(25%)][#b610df 823MiB/3.7GiB(21%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(25%)][#b610df 828MiB/3.7GiB(21%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(25%)][#b610df 834MiB/3.7GiB(21%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(25%)][#b610df 839MiB/3.7GiB(22%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(25%)][#b610df 845MiB/3.7GiB(22%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(25%)][#b610df 850MiB/3.7GiB(22%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(26%)][#b610df 855MiB/3.7GiB(22%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(26%)][#b610df 860MiB/3.7GiB(22%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(26%)][#b610df 866MiB/3.7GiB(22%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(26%)][#b610df 872MiB/3.7GiB(22%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(26%)][#b610df 877MiB/3.7GiB(23%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(26%)][#b610df 883MiB/3.7GiB(23%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(26%)][#b610df 888MiB/3.7GiB(23%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(27%)][#b610df 893MiB/3.7GiB(23%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(27%)][#b610df 899MiB/3.7GiB(23%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(27%)][#b610df 904MiB/3.7GiB(23%)]
+[DL:10MiB][#79f81f 0.9GiB/3.6GiB(27%)][#b610df 909MiB/3.7GiB(23%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(27%)][#b610df 914MiB/3.7GiB(24%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(27%)][#b610df 919MiB/3.7GiB(24%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(27%)][#b610df 0.9GiB/3.7GiB(24%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(28%)][#b610df 0.9GiB/3.7GiB(24%)]
+ *** Download Progress Summary as of Mon Dec  8 21:52:03 2025 *** 
+===============================================================================
+[#79f81f 1.0GiB/3.6GiB(28%) CN:4 DL:5.7MiB ETA:7m42s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00001-of-00008.safetensors
+-------------------------------------------------------------------------------
+[#b610df 0.9GiB/3.7GiB(24%) CN:4 DL:5.2MiB ETA:9m8s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00002-of-00008.safetensors
+-------------------------------------------------------------------------------
+
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(28%)][#b610df 0.9GiB/3.7GiB(24%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(28%)][#b610df 0.9GiB/3.7GiB(24%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(28%)][#b610df 0.9GiB/3.7GiB(24%)]
+[DL:11MiB][#79f81f 1.0GiB/3.6GiB(28%)][#b610df 0.9GiB/3.7GiB(24%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(28%)][#b610df 0.9GiB/3.7GiB(25%)]
+[DL:11MiB][#79f81f 1.0GiB/3.6GiB(29%)][#b610df 0.9GiB/3.7GiB(25%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(29%)][#b610df 0.9GiB/3.7GiB(25%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(29%)][#b610df 0.9GiB/3.7GiB(25%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(29%)][#b610df 0.9GiB/3.7GiB(25%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(29%)][#b610df 0.9GiB/3.7GiB(25%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(29%)][#b610df 0.9GiB/3.7GiB(25%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(29%)][#b610df 0.9GiB/3.7GiB(26%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(30%)][#b610df 0.9GiB/3.7GiB(26%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(30%)][#b610df 0.9GiB/3.7GiB(26%)]
+[DL:10MiB][#79f81f 1.0GiB/3.6GiB(30%)][#b610df 0.9GiB/3.7GiB(26%)]
+[DL:11MiB][#79f81f 1.1GiB/3.6GiB(30%)][#b610df 0.9GiB/3.7GiB(26%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(30%)][#b610df 0.9GiB/3.7GiB(26%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(30%)][#b610df 1.0GiB/3.7GiB(26%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(30%)][#b610df 1.0GiB/3.7GiB(27%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(31%)][#b610df 1.0GiB/3.7GiB(27%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(31%)][#b610df 1.0GiB/3.7GiB(27%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(31%)][#b610df 1.0GiB/3.7GiB(27%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(31%)][#b610df 1.0GiB/3.7GiB(27%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(31%)][#b610df 1.0GiB/3.7GiB(27%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(31%)][#b610df 1.0GiB/3.7GiB(28%)]
+[DL:11MiB][#79f81f 1.1GiB/3.6GiB(31%)][#b610df 1.0GiB/3.7GiB(28%)]
+[DL:11MiB][#79f81f 1.1GiB/3.6GiB(31%)][#b610df 1.0GiB/3.7GiB(28%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(32%)][#b610df 1.0GiB/3.7GiB(28%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(32%)][#b610df 1.0GiB/3.7GiB(28%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(32%)][#b610df 1.0GiB/3.7GiB(28%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(32%)][#b610df 1.0GiB/3.7GiB(29%)]
+ *** Download Progress Summary as of Mon Dec  8 21:52:34 2025 *** 
+===============================================================================
+[#79f81f 1.1GiB/3.6GiB(32%) CN:4 DL:4.9MiB ETA:8m23s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00001-of-00008.safetensors
+-------------------------------------------------------------------------------
+[#b610df 1.0GiB/3.7GiB(29%) CN:4 DL:5.9MiB ETA:7m32s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00002-of-00008.safetensors
+-------------------------------------------------------------------------------
+
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(32%)][#b610df 1.0GiB/3.7GiB(29%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(32%)][#b610df 1.0GiB/3.7GiB(29%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(32%)][#b610df 1.0GiB/3.7GiB(29%)]
+[DL:10MiB][#79f81f 1.1GiB/3.6GiB(33%)][#b610df 1.0GiB/3.7GiB(29%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(33%)][#b610df 1.1GiB/3.7GiB(29%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(33%)][#b610df 1.1GiB/3.7GiB(29%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(33%)][#b610df 1.1GiB/3.7GiB(29%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(33%)][#b610df 1.1GiB/3.7GiB(30%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(33%)][#b610df 1.1GiB/3.7GiB(30%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(33%)][#b610df 1.1GiB/3.7GiB(30%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(34%)][#b610df 1.1GiB/3.7GiB(30%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(34%)][#b610df 1.1GiB/3.7GiB(30%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(34%)][#b610df 1.1GiB/3.7GiB(30%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(34%)][#b610df 1.1GiB/3.7GiB(30%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(34%)][#b610df 1.1GiB/3.7GiB(31%)]
+[DL:11MiB][#79f81f 1.2GiB/3.6GiB(34%)][#b610df 1.1GiB/3.7GiB(31%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(34%)][#b610df 1.1GiB/3.7GiB(31%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(35%)][#b610df 1.1GiB/3.7GiB(31%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(35%)][#b610df 1.1GiB/3.7GiB(31%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(35%)][#b610df 1.1GiB/3.7GiB(31%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(35%)][#b610df 1.1GiB/3.7GiB(31%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(35%)][#b610df 1.1GiB/3.7GiB(32%)]
+[DL:10MiB][#79f81f 1.2GiB/3.6GiB(35%)][#b610df 1.1GiB/3.7GiB(32%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(36%)][#b610df 1.2GiB/3.7GiB(32%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(36%)][#b610df 1.2GiB/3.7GiB(32%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(36%)][#b610df 1.2GiB/3.7GiB(32%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(36%)][#b610df 1.2GiB/3.7GiB(32%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(36%)][#b610df 1.2GiB/3.7GiB(32%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(36%)][#b610df 1.2GiB/3.7GiB(32%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(36%)][#b610df 1.2GiB/3.7GiB(33%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(37%)][#b610df 1.2GiB/3.7GiB(33%)]
+ *** Download Progress Summary as of Mon Dec  8 21:53:05 2025 *** 
+===============================================================================
+[#79f81f 1.3GiB/3.6GiB(37%) CN:4 DL:5.7MiB ETA:6m41s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00001-of-00008.safetensors
+-------------------------------------------------------------------------------
+[#b610df 1.2GiB/3.7GiB(33%) CN:4 DL:5.1MiB ETA:8m15s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00002-of-00008.safetensors
+-------------------------------------------------------------------------------
+
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(37%)][#b610df 1.2GiB/3.7GiB(33%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(37%)][#b610df 1.2GiB/3.7GiB(33%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(37%)][#b610df 1.2GiB/3.7GiB(33%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(37%)][#b610df 1.2GiB/3.7GiB(33%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(37%)][#b610df 1.2GiB/3.7GiB(33%)]
+[DL:11MiB][#79f81f 1.3GiB/3.6GiB(38%)][#b610df 1.2GiB/3.7GiB(34%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(38%)][#b610df 1.2GiB/3.7GiB(34%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(38%)][#b610df 1.2GiB/3.7GiB(34%)]
+[DL:10MiB][#79f81f 1.3GiB/3.6GiB(38%)][#b610df 1.2GiB/3.7GiB(34%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(38%)][#b610df 1.2GiB/3.7GiB(34%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(38%)][#b610df 1.2GiB/3.7GiB(34%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(39%)][#b610df 1.2GiB/3.7GiB(34%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(39%)][#b610df 1.3GiB/3.7GiB(34%)]
+[DL:11MiB][#79f81f 1.4GiB/3.6GiB(39%)][#b610df 1.3GiB/3.7GiB(35%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(39%)][#b610df 1.3GiB/3.7GiB(35%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(39%)][#b610df 1.3GiB/3.7GiB(35%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(39%)][#b610df 1.3GiB/3.7GiB(35%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(40%)][#b610df 1.3GiB/3.7GiB(35%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(40%)][#b610df 1.3GiB/3.7GiB(35%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(40%)][#b610df 1.3GiB/3.7GiB(35%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(40%)][#b610df 1.3GiB/3.7GiB(35%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(40%)][#b610df 1.3GiB/3.7GiB(36%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(40%)][#b610df 1.3GiB/3.7GiB(36%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(41%)][#b610df 1.3GiB/3.7GiB(36%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(41%)][#b610df 1.3GiB/3.7GiB(36%)]
+[DL:10MiB][#79f81f 1.4GiB/3.6GiB(41%)][#b610df 1.3GiB/3.7GiB(36%)]
+[DL:11MiB][#79f81f 1.5GiB/3.6GiB(41%)][#b610df 1.3GiB/3.7GiB(36%)]
+[DL:10MiB][#79f81f 1.5GiB/3.6GiB(41%)][#b610df 1.3GiB/3.7GiB(36%)]
+[DL:10MiB][#79f81f 1.5GiB/3.6GiB(41%)][#b610df 1.3GiB/3.7GiB(36%)]
+[DL:10MiB][#79f81f 1.5GiB/3.6GiB(41%)][#b610df 1.3GiB/3.7GiB(37%)]
+[DL:10MiB][#79f81f 1.5GiB/3.6GiB(42%)][#b610df 1.3GiB/3.7GiB(37%)]
+ *** Download Progress Summary as of Mon Dec  8 21:53:35 2025 *** 
+===============================================================================
+[#79f81f 1.5GiB/3.6GiB(42%) CN:4 DL:6.1MiB ETA:5m50s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00001-of-00008.safetensors
+-------------------------------------------------------------------------------
+[#b610df 1.3GiB/3.7GiB(37%) CN:4 DL:4.7MiB ETA:8m17s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00002-of-00008.safetensors
+-------------------------------------------------------------------------------
+
+[DL:10MiB][#79f81f 1.5GiB/3.6GiB(42%)][#b610df 1.3GiB/3.7GiB(37%)]
+[DL:10MiB][#79f81f 1.5GiB/3.6GiB(42%)][#b610df 1.3GiB/3.7GiB(37%)]
+[DL:10MiB][#79f81f 1.5GiB/3.6GiB(42%)][#b610df 1.3GiB/3.7GiB(37%)]
+[DL:10MiB][#79f81f 1.5GiB/3.6GiB(42%)][#b610df 1.4GiB/3.7GiB(37%)]
+[DL:10MiB][#79f81f 1.5GiB/3.6GiB(42%)][#b610df 1.4GiB/3.7GiB(37%)]
+[DL:11MiB][#79f81f 1.5GiB/3.6GiB(43%)][#b610df 1.4GiB/3.7GiB(38%)]
+[DL:10MiB][#79f81f 1.5GiB/3.6GiB(43%)][#b610df 1.4GiB/3.7GiB(38%)]
+[DL:10MiB][#79f81f 1.5GiB/3.6GiB(43%)][#b610df 1.4GiB/3.7GiB(38%)]
+[DL:10MiB][#79f81f 1.5GiB/3.6GiB(43%)][#b610df 1.4GiB/3.7GiB(38%)]
+[DL:11MiB][#79f81f 1.5GiB/3.6GiB(43%)][#b610df 1.4GiB/3.7GiB(38%)]
+[DL:11MiB][#79f81f 1.5GiB/3.6GiB(43%)][#b610df 1.4GiB/3.7GiB(38%)]
+[DL:10MiB][#79f81f 1.5GiB/3.6GiB(43%)][#b610df 1.4GiB/3.7GiB(38%)]
+[DL:10MiB][#79f81f 1.5GiB/3.6GiB(44%)][#b610df 1.4GiB/3.7GiB(38%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(44%)][#b610df 1.4GiB/3.7GiB(39%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(44%)][#b610df 1.4GiB/3.7GiB(39%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(44%)][#b610df 1.4GiB/3.7GiB(39%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(44%)][#b610df 1.4GiB/3.7GiB(39%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(44%)][#b610df 1.4GiB/3.7GiB(39%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(45%)][#b610df 1.4GiB/3.7GiB(39%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(45%)][#b610df 1.4GiB/3.7GiB(39%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(45%)][#b610df 1.4GiB/3.7GiB(39%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(45%)][#b610df 1.4GiB/3.7GiB(40%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(45%)][#b610df 1.4GiB/3.7GiB(40%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(45%)][#b610df 1.5GiB/3.7GiB(40%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(46%)][#b610df 1.5GiB/3.7GiB(40%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(46%)][#b610df 1.5GiB/3.7GiB(40%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(46%)][#b610df 1.5GiB/3.7GiB(40%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(46%)][#b610df 1.5GiB/3.7GiB(40%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(46%)][#b610df 1.5GiB/3.7GiB(40%)]
+[DL:10MiB][#79f81f 1.6GiB/3.6GiB(46%)][#b610df 1.5GiB/3.7GiB(41%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(47%)][#b610df 1.5GiB/3.7GiB(41%)]
+ *** Download Progress Summary as of Mon Dec  8 21:54:06 2025 *** 
+===============================================================================
+[#79f81f 1.7GiB/3.6GiB(47%) CN:4 DL:6.1MiB ETA:5m20s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00001-of-00008.safetensors
+-------------------------------------------------------------------------------
+[#b610df 1.5GiB/3.7GiB(41%) CN:4 DL:4.6MiB ETA:7m57s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00002-of-00008.safetensors
+-------------------------------------------------------------------------------
+
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(47%)][#b610df 1.5GiB/3.7GiB(41%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(47%)][#b610df 1.5GiB/3.7GiB(41%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(47%)][#b610df 1.5GiB/3.7GiB(41%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(47%)][#b610df 1.5GiB/3.7GiB(41%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(47%)][#b610df 1.5GiB/3.7GiB(41%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(47%)][#b610df 1.5GiB/3.7GiB(41%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(48%)][#b610df 1.5GiB/3.7GiB(42%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(48%)][#b610df 1.5GiB/3.7GiB(42%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(48%)][#b610df 1.5GiB/3.7GiB(42%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(48%)][#b610df 1.5GiB/3.7GiB(42%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(48%)][#b610df 1.5GiB/3.7GiB(42%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(48%)][#b610df 1.5GiB/3.7GiB(42%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(49%)][#b610df 1.5GiB/3.7GiB(42%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(49%)][#b610df 1.5GiB/3.7GiB(42%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(49%)][#b610df 1.6GiB/3.7GiB(43%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(49%)][#b610df 1.6GiB/3.7GiB(43%)]
+[DL:10MiB][#79f81f 1.7GiB/3.6GiB(49%)][#b610df 1.6GiB/3.7GiB(43%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(49%)][#b610df 1.6GiB/3.7GiB(43%)]
+[DL:11MiB][#79f81f 1.8GiB/3.6GiB(49%)][#b610df 1.6GiB/3.7GiB(43%)]
+[DL:11MiB][#79f81f 1.8GiB/3.6GiB(50%)][#b610df 1.6GiB/3.7GiB(43%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(50%)][#b610df 1.6GiB/3.7GiB(43%)]
+[DL:11MiB][#79f81f 1.8GiB/3.6GiB(50%)][#b610df 1.6GiB/3.7GiB(44%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(50%)][#b610df 1.6GiB/3.7GiB(44%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(50%)][#b610df 1.6GiB/3.7GiB(44%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(50%)][#b610df 1.6GiB/3.7GiB(44%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(51%)][#b610df 1.6GiB/3.7GiB(44%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(51%)][#b610df 1.6GiB/3.7GiB(44%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(51%)][#b610df 1.6GiB/3.7GiB(44%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(51%)][#b610df 1.6GiB/3.7GiB(45%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(51%)][#b610df 1.6GiB/3.7GiB(45%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(51%)][#b610df 1.6GiB/3.7GiB(45%)]
+ *** Download Progress Summary as of Mon Dec  8 21:54:37 2025 *** 
+===============================================================================
+[#79f81f 1.8GiB/3.6GiB(51%) CN:4 DL:5.4MiB ETA:5m26s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00001-of-00008.safetensors
+-------------------------------------------------------------------------------
+[#b610df 1.6GiB/3.7GiB(45%) CN:4 DL:5.3MiB ETA:6m30s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00002-of-00008.safetensors
+-------------------------------------------------------------------------------
+
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(51%)][#b610df 1.6GiB/3.7GiB(45%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(52%)][#b610df 1.6GiB/3.7GiB(45%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(52%)][#b610df 1.7GiB/3.7GiB(45%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(52%)][#b610df 1.7GiB/3.7GiB(45%)]
+[DL:10MiB][#79f81f 1.8GiB/3.6GiB(52%)][#b610df 1.7GiB/3.7GiB(46%)]
+[DL:11MiB][#79f81f 1.9GiB/3.6GiB(52%)][#b610df 1.7GiB/3.7GiB(46%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(52%)][#b610df 1.7GiB/3.7GiB(46%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(52%)][#b610df 1.7GiB/3.7GiB(46%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(53%)][#b610df 1.7GiB/3.7GiB(46%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(53%)][#b610df 1.7GiB/3.7GiB(46%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(53%)][#b610df 1.7GiB/3.7GiB(46%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(53%)][#b610df 1.7GiB/3.7GiB(47%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(53%)][#b610df 1.7GiB/3.7GiB(47%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(53%)][#b610df 1.7GiB/3.7GiB(47%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(54%)][#b610df 1.7GiB/3.7GiB(47%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(54%)][#b610df 1.7GiB/3.7GiB(47%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(54%)][#b610df 1.7GiB/3.7GiB(47%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(54%)][#b610df 1.7GiB/3.7GiB(47%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(54%)][#b610df 1.7GiB/3.7GiB(47%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(54%)][#b610df 1.7GiB/3.7GiB(48%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(54%)][#b610df 1.7GiB/3.7GiB(48%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(55%)][#b610df 1.7GiB/3.7GiB(48%)]
+[DL:10MiB][#79f81f 1.9GiB/3.6GiB(55%)][#b610df 1.8GiB/3.7GiB(48%)]
+[DL:10MiB][#79f81f 2.0GiB/3.6GiB(55%)][#b610df 1.8GiB/3.7GiB(48%)]
+[DL:10MiB][#79f81f 2.0GiB/3.6GiB(55%)][#b610df 1.8GiB/3.7GiB(48%)]
+[DL:10MiB][#79f81f 2.0GiB/3.6GiB(55%)][#b610df 1.8GiB/3.7GiB(48%)]
+[DL:11MiB][#79f81f 2.0GiB/3.6GiB(55%)][#b610df 1.8GiB/3.7GiB(49%)]
+[DL:10MiB][#79f81f 2.0GiB/3.6GiB(56%)][#b610df 1.8GiB/3.7GiB(49%)]
+[DL:10MiB][#79f81f 2.0GiB/3.6GiB(56%)][#b610df 1.8GiB/3.7GiB(49%)]
+[DL:10MiB][#79f81f 2.0GiB/3.6GiB(56%)][#b610df 1.8GiB/3.7GiB(49%)]
+[DL:10MiB][#79f81f 2.0GiB/3.6GiB(56%)][#b610df 1.8GiB/3.7GiB(49%)]
+ *** Download Progress Summary as of Mon Dec  8 21:55:08 2025 *** 
+===============================================================================
+[#79f81f 2.0GiB/3.6GiB(56%) CN:4 DL:5.7MiB ETA:4m40s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00001-of-00008.safetensors
+-------------------------------------------------------------------------------
+[#b610df 1.8GiB/3.7GiB(49%) CN:4 DL:5.2MiB ETA:6m7s]
+FILE: /home/lanco/cursor/temp_git/rag_llm_chaining/models/qwen2.5-14b/model-00002-of-00008.safetensors
+-------------------------------------------------------------------------------
+

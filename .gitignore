@@ -1,0 +1,44 @@
+# Environment variables (NEVER commit)
+.env
+.env.local
+.env.*.local
+
+# SSH Keys
+*.pem
+*.key
+id_*
+
+# Model files (too large)
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.onnx
+
+# Data files
+data/raw/
+data/embeddings/
+*.parquet
+*.arrow
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.eggs/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

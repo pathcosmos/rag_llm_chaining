@@ -1,0 +1,77 @@
+# Model Configuration for RAG LLM Chaining Project
+
+# Primary LLM Model
+llm:
+  # 1차 테스트 모델
+  primary:
+    name: "Qwen2.5-7B-Instruct"
+    huggingface_id: "Qwen/Qwen2.5-7B-Instruct"
+    license: "Apache-2.0"
+    parameters: "7B"
+    context_length: 131072  # 128K
+    load_in_4bit: false
+    load_in_8bit: false
+    torch_dtype: "bfloat16"
+    device_map: "auto"
+    max_new_tokens: 2048
+    temperature: 0.7
+    top_p: 0.9
+    repetition_penalty: 1.1
+
+  # 테스트 대기 모델들
+  alternatives:
+    - name: "Qwen2.5-14B-Instruct"
+      huggingface_id: "Qwen/Qwen2.5-14B-Instruct"
+      load_in_4bit: true
+      note: "성능 향상 테스트"
+
+    - name: "SOLAR-10.7B-Instruct"
+      huggingface_id: "upstage/SOLAR-10.7B-Instruct-v1.0"
+      load_in_4bit: true
+      note: "한국어 특화 비교"
+
+    - name: "Bllossom-8B"
+      huggingface_id: "MLP-KTLim/llama-3-Korean-Bllossom-8B"
+      load_in_4bit: true
+      note: "한글 최적화 비교"
+
+# Embedding Model
+embedding:
+  primary:
+    name: "BGE-M3"
+    huggingface_id: "BAAI/bge-m3"
+    license: "MIT"
+    dimensions: 1024
+    max_seq_length: 8192
+    normalize_embeddings: true
+    device: "cuda"
+
+  alternatives:
+    - name: "KoSimCSE-roberta"
+      huggingface_id: "BM-K/KoSimCSE-roberta"
+      dimensions: 768
+
+    - name: "multilingual-e5-large"
+      huggingface_id: "intfloat/multilingual-e5-large"
+      dimensions: 1024
+
+# Inference Settings
+inference:
+  # vLLM settings (for production)
+  vllm:
+    enabled: false
+    tensor_parallel_size: 1
+    gpu_memory_utilization: 0.9
+    max_model_len: 32768
+
+  # Ollama settings (for development)
+  ollama:
+    enabled: false
+    base_url: "http://localhost:11434"
+    model: "qwen2.5:7b-instruct"
+
+# Hardware Constraints
+hardware:
+  gpu_vram_gb: 16
+  max_batch_size: 4
+  use_flash_attention: true

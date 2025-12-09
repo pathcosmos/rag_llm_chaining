@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created_at": "2025-12-08",
+    "description": "판례 DB 특화 테스트 - RAG 변별력 검증용",
+    "purpose": "RAG가 판례 DB를 활용해야만 정확히 답변할 수 있는 질문들",
+    "total_questions": 30,
+    "categories": {
+      "case_specific": 10,
+      "legal_principle": 10,
+      "procedure_detail": 10
+    }
+  },
+  "test_cases": [
+    {
+      "id": "case_001",
+      "category": "case_specific",
+      "subcategory": "상속_포기",
+      "question": "상속포기가 채권자취소권의 대상이 되는지에 대한 법원의 판단은 어떠한가요?",
+      "ground_truth": "상속포기는 채권자취소권의 대상이 되지 않는다. 상속인이 상속포기를 하면 애당초 상속재산을 취득한 바 없으므로 소극적으로 총재산의 증가를 방해한 것에 불과하고, 상속포기나 승인과 같은 신분법상의 법률행위는 그 성질상 일신전속적 권리로서 타인의 의사에 의하여 강요할 수 없다.",
+      "expected_keywords": ["채권자취소권", "대상", "소극", "일신전속적"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "case_002",
+      "category": "case_specific",
+      "subcategory": "임대차",
+      "question": "임대차 계약 종료 후 보증금 반환의무는 언제 발생하나요? 구체적인 판례의 판단 기준을 알려주세요.",
+      "ground_truth": "임대차계약이 종료되면 특별한 사정이 없는 한 임대인은 임차인에게 보증금을 반환할 의무가 있다.",
+      "expected_keywords": ["임대차계약", "종료", "보증금", "반환", "의무"],
+      "difficulty": "medium",
+      "rag_advantage": "medium"
+    },
+    {
+      "id": "case_003",
+      "category": "case_specific",
+      "subcategory": "근로_해고",
+      "question": "근로계약의 종료사유에는 어떤 것들이 있으며, 각각의 법적 성격은 무엇인가요?",
+      "ground_truth": "근로계약의 종료사유는 퇴직, 해고, 자동소멸 등으로 나누어 볼 수 있다. 퇴직은 근로자의 의사로 또는 동의를 받아서 하는 것이고, 해고는 근로자의 의사에 반하여 사용자의 일방적 의사로 하는 것이며, 자동소멸은 근로자나 사용자의 의사와는 관계없이 근로계약이 자동적으로 소멸하는 것이다.",
+      "expected_keywords": ["퇴직", "해고", "자동소멸", "근로자", "의사"],
+      "difficulty": "medium",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "case_004",
+      "category": "case_specific",
+      "subcategory": "명예훼손",
+      "question": "집합적 명사를 사용한 명예훼손죄에서 피해자 특정은 어떻게 판단하나요?",
+      "ground_truth": "명예훼손죄는 어떤 특정한 사람 또는 인격을 보유하는 단체에 대하여 명예를 훼손함으로써 성립하는 것이므로 피해자가 특정되어야 한다. 집합적 명사를 쓴 경우에도 어떤 범위에 속하는 특정인을 가리키는 것이 명백하면, 이를 각자의 명예를 훼손하는 행위라고 볼 수 있다.",
+      "expected_keywords": ["집합적 명사", "특정인", "명백", "명예훼손"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "case_005",
+      "category": "case_specific",
+      "subcategory": "채권자취소권",
+      "question": "채권자취소권의 본질과 행사 효과는 무엇인가요?",
+      "ground_truth": "채권자취소권은 채무자의 사해행위를 취소하고 채무자의 책임재산에서 벗어난 재산을 회복하여 채권자가 강제집행을 할 수 있도록 하는 것을 본질로 하는 권리이다. 채권자취소권의 행사로 사해행위가 취소되면 수익자 또는 전득자로부터 재산을 환원시킬 수 있다.",
+      "expected_keywords": ["사해행위", "취소", "책임재산", "회복", "강제집행"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "case_006",
+      "category": "case_specific",
+      "subcategory": "상속_유류분",
+      "question": "유류분 산정의 기초가 되는 재산액 계산 공식은 어떻게 되나요?",
+      "ground_truth": "유류분 산정의 기초가 되는 재산액(A)은 '적극적 상속재산 + 증여액 - 상속채무액'으로 계산한다. 피상속인의 직계비속의 유류분(B)은 그 법정상속분의 1/2이다.",
+      "expected_keywords": ["적극적 상속재산", "증여액", "상속채무액", "법정상속분", "1/2"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "case_007",
+      "category": "case_specific",
+      "subcategory": "이혼_재산분할",
+      "question": "이혼 시 재산분할 비율을 결정할 때 고려하는 요소는 무엇인가요?",
+      "ground_truth": "재산분할 비율 결정 시 혼인기간, 가사와 육아 담당 여부, 부부공동재산 형성에 대한 기여도 등 여러 사정을 참작한다.",
+      "expected_keywords": ["혼인기간", "가사", "육아", "기여", "분할비율"],
+      "difficulty": "medium",
+      "rag_advantage": "medium"
+    },
+    {
+      "id": "case_008",
+      "category": "case_specific",
+      "subcategory": "교통사고",
+      "question": "교통사고 피해자에 대한 책임보험금 산정 기준은 무엇인가요?",
+      "ground_truth": "교통사고 피해자에게 지급할 책임보험금은 자동차손해배상보장법 제15조 제1항에 근거하여 고시된 자동차보험진료수가에 관한 기준에 따라 산출한 금액 또는 책임보험금 한도액 기준으로 산정한다.",
+      "expected_keywords": ["책임보험금", "자동차손해배상보장법", "진료수가", "한도액"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "case_009",
+      "category": "case_specific",
+      "subcategory": "상속",
+      "question": "상속의 포기가 다른 공동상속인이나 채권자에게 미치는 영향에 대한 법적 근거는?",
+      "ground_truth": "상속의 포기는 상속에 관한 법률상 지위를 상실시키는 행위로서 다른 공동상속인 또는 피상속인이나 상속인의 채권자 등에게 미치는 영향이 크다. 민법은 그 효과를 명확히 규정하고 있다.",
+      "expected_keywords": ["상속포기", "공동상속인", "채권자", "영향", "민법"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "case_010",
+      "category": "case_specific",
+      "subcategory": "사해행위",
+      "question": "상속포기와 증여의 법률적 성질 차이점은 무엇인가요?",
+      "ground_truth": "상속포기는 자기를 위하여 개시된 상속의 효력을 상속개시시에 소급하여 확정적으로 소멸시키는 단독의 의사표시로서 일신전속적인 신분법상의 법률행위에 해당한다. 이에 반해 증여는 당사자의 일방이 무상으로 재산을 상대방에게 수여하는 의사를 표시하고 상대방이 이를 승낙함으로써 그 효력이 생기는 계약에 해당한다.",
+      "expected_keywords": ["상속포기", "증여", "단독", "의사표시", "계약"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "principle_001",
+      "category": "legal_principle",
+      "subcategory": "민법_상속",
+      "question": "상속포기의 소급적 효과란 무엇인가요?",
+      "ground_truth": "상속포기의 소급적 효과 때문에 상속을 포기하면, 처음부터 상속인이 아니었던 것으로 된다(민법 제1042조).",
+      "expected_keywords": ["소급적", "효과", "처음부터", "상속인", "민법 제1042조"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "principle_002",
+      "category": "legal_principle",
+      "subcategory": "민법_상속",
+      "question": "피상속인의 사망으로 상속인에게 어떤 권리의무가 승계되나요? 법적 근거와 함께 설명해주세요.",
+      "ground_truth": "피상속인의 사망으로 상속인에게 피상속인의 모든 재산상의 권리의무가 법률상 당연히 포괄적으로 승계된다(민법 제1005조).",
+      "expected_keywords": ["재산상", "권리의무", "포괄적", "승계", "민법 제1005조"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "principle_003",
+      "category": "legal_principle",
+      "subcategory": "채권법",
+      "question": "채권자취소권에서 수익자인 채권자의 안분액 반환 거절 가능 여부는?",
+      "ground_truth": "채권자취소권은 채권의 공동담보인 채무자의 책임재산을 보전하기 위하여 채무자와 수익자 사이의 사해행위를 취소하고 채무자의 일반재산으로부터 일탈된 재산을 모든 채권자를 위하여 수익자 또는 전득자로부터 환원시키는 제도이므로, 수익자인 채권자로 하여금 안분액의 반환을 거절하도록 할 수 없다.",
+      "expected_keywords": ["공동담보", "책임재산", "사해행위", "안분액", "거절"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "principle_004",
+      "category": "legal_principle",
+      "subcategory": "형법",
+      "question": "명예훼손죄가 성립하기 위한 피해자 특정 요건은 무엇인가요?",
+      "ground_truth": "명예훼손죄는 어떤 특정한 사람 또는 인격을 보유하는 단체에 대하여 명예를 훼손함으로써 성립하는 것이므로 피해자가 특정되어야 한다.",
+      "expected_keywords": ["특정한 사람", "단체", "피해자", "특정"],
+      "difficulty": "medium",
+      "rag_advantage": "medium"
+    },
+    {
+      "id": "principle_005",
+      "category": "legal_principle",
+      "subcategory": "민법_채권",
+      "question": "사해행위 취소 후 재산 환원의 대상은 누구인가요?",
+      "ground_truth": "채권자취소권의 행사로 사해행위가 취소되고 채무자의 책임재산에서 벗어난 재산이 수익자 또는 전득자로부터 환원된다.",
+      "expected_keywords": ["수익자", "전득자", "환원", "책임재산"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "principle_006",
+      "category": "legal_principle",
+      "subcategory": "근로법",
+      "question": "해고와 퇴직의 법적 구별 기준은 무엇인가요?",
+      "ground_truth": "퇴직은 근로자의 의사로 또는 동의를 받아서 하는 것이고, 해고는 근로자의 의사에 반하여 사용자의 일방적 의사로 하는 것이다.",
+      "expected_keywords": ["근로자", "의사", "동의", "사용자", "일방적"],
+      "difficulty": "medium",
+      "rag_advantage": "medium"
+    },
+    {
+      "id": "principle_007",
+      "category": "legal_principle",
+      "subcategory": "민법_물권",
+      "question": "부동산 경매에서 낙찰 후 인도명령을 받으려면 어떤 요건이 필요한가요?",
+      "ground_truth": "경매로 낙찰받은 부동산의 인도명령은 낙찰대금 완납 후 신청할 수 있으며, 점유자가 대항력 있는 권원 없이 점유하는 경우에 인정된다.",
+      "expected_keywords": ["낙찰", "인도명령", "대금", "점유자", "대항력"],
+      "difficulty": "hard",
+      "rag_advantage": "medium"
+    },
+    {
+      "id": "principle_008",
+      "category": "legal_principle",
+      "subcategory": "가사법",
+      "question": "유류분 반환청구에서 순상속분액은 어떻게 계산하나요?",
+      "ground_truth": "순상속분액(D)은 당해 유류분권자의 상속에 의하여 얻는 재산액에서 상속채무 분담액을 뺀 금액이다.",
+      "expected_keywords": ["순상속분액", "상속", "재산액", "상속채무", "분담액"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "principle_009",
+      "category": "legal_principle",
+      "subcategory": "민법_상속",
+      "question": "상속포기가 신분법상 일신전속적 권리인 이유는 무엇인가요?",
+      "ground_truth": "상속포기나 승인과 같은 신분법상의 법률행위는 그 성질상 일신전속적 권리로서 타인의 의사에 의하여 강요할 수 없다. 이는 상속에 관한 결정이 개인의 신분에 밀접하게 관련되어 있기 때문이다.",
+      "expected_keywords": ["일신전속적", "신분법", "강요", "타인", "의사"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "principle_010",
+      "category": "legal_principle",
+      "subcategory": "손해배상",
+      "question": "교통사고 손해배상에서 적극적 손해, 소극적 손해, 위자료의 구분은?",
+      "ground_truth": "교통사고로 인한 손해배상은 적극적 손해(치료비 등 실제 지출 비용), 소극적 손해(일실수익 등 얻지 못한 이익), 위자료(정신적 고통에 대한 배상)로 구분된다.",
+      "expected_keywords": ["적극적 손해", "소극적 손해", "위자료", "치료비", "정신적"],
+      "difficulty": "medium",
+      "rag_advantage": "medium"
+    },
+    {
+      "id": "procedure_001",
+      "category": "procedure_detail",
+      "subcategory": "상속포기",
+      "question": "상속포기를 하면 상속인 지위는 어떻게 되나요? 민법 조항과 함께 설명해주세요.",
+      "ground_truth": "상속을 포기하면 처음부터 상속인이 아니었던 것으로 된다(민법 제1042조). 상속포기의 소급적 효과 때문이다.",
+      "expected_keywords": ["민법 제1042조", "처음부터", "상속인", "소급적 효과"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "procedure_002",
+      "category": "procedure_detail",
+      "subcategory": "유류분",
+      "question": "유류분 반환청구 시 공제해야 할 항목은 무엇인가요?",
+      "ground_truth": "유류분 부족액 산정 시 당해 유류분권자의 수증액과 수유액을 공제해야 한다. 공식: 유류분 부족액 = A(기초재산) × B(유류분율) - C(수증액+수유액) - D(순상속분액)",
+      "expected_keywords": ["수증액", "수유액", "공제", "유류분 부족액"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "procedure_003",
+      "category": "procedure_detail",
+      "subcategory": "채권회수",
+      "question": "채권자취소권 행사로 사해행위가 취소되면 어떤 효과가 발생하나요?",
+      "ground_truth": "채권자취소권의 행사로 사해행위가 취소되면 채무자의 일반재산으로부터 일탈된 재산이 모든 채권자를 위하여 수익자 또는 전득자로부터 환원된다.",
+      "expected_keywords": ["취소", "일탈된 재산", "환원", "수익자", "전득자"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "procedure_004",
+      "category": "procedure_detail",
+      "subcategory": "이혼",
+      "question": "이혼 재산분할에서 순상속분액 계산 방법은?",
+      "ground_truth": "구체적 상속분액에서 상속채무 분담액을 뺀 것이 순상속분액이다.",
+      "expected_keywords": ["구체적 상속분액", "상속채무 분담액", "순상속분액"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "procedure_005",
+      "category": "procedure_detail",
+      "subcategory": "보험",
+      "question": "자동차보험에서 책임보험금이 진료비 해당액을 초과할 경우 어떻게 처리하나요?",
+      "ground_truth": "책임보험금이 진료비 해당액(자동차손배법 제15조 제1항에 근거하여 고시된 자동차보험진료수가에 관한 기준에 따라 산출한 금액)을 초과하면 책임보험금 한도액 기준으로 처리한다.",
+      "expected_keywords": ["책임보험금", "진료비", "한도액", "자동차손배법"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "procedure_006",
+      "category": "procedure_detail",
+      "subcategory": "친권",
+      "question": "친권자가 아닌 자가 미성년자를 대신하여 상속포기를 하려면 어떤 절차가 필요한가요?",
+      "ground_truth": "친권자가 아닌 자가 미성년자에 갈음하여 상속포기를 하기 위하여는 후견인과 동일한 권한밖에 없으므로 친족회의 동의를 얻어야 한다.",
+      "expected_keywords": ["친권", "미성년자", "후견인", "친족회", "동의"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "procedure_007",
+      "category": "procedure_detail",
+      "subcategory": "형사",
+      "question": "선고유예와 집행유예의 차이점을 법적 효과 측면에서 설명해주세요.",
+      "ground_truth": "선고유예는 형을 선고하지 않고 유예하는 제도이고, 집행유예는 형을 선고한 후 그 집행을 유예하는 제도이다. 선고유예 기간이 경과하면 면소된 것으로 간주되고, 집행유예 기간이 경과하면 형의 선고 효력이 상실된다.",
+      "expected_keywords": ["선고유예", "집행유예", "형", "선고", "유예"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    },
+    {
+      "id": "procedure_008",
+      "category": "procedure_detail",
+      "subcategory": "부동산",
+      "question": "근저당권이 설정된 부동산을 매수할 때 말소기준권리 확인 방법은?",
+      "ground_truth": "경매에서 말소기준권리란 경매로 인해 소멸하는 권리와 인수되는 권리를 구분하는 기준이 되는 권리이다. 근저당권 설정일 이후의 권리는 매수인이 인수하지 않고, 그 전에 설정된 권리는 인수해야 할 수 있다.",
+      "expected_keywords": ["말소기준권리", "근저당권", "소멸", "인수", "설정일"],
+      "difficulty": "hard",
+      "rag_advantage": "medium"
+    },
+    {
+      "id": "procedure_009",
+      "category": "procedure_detail",
+      "subcategory": "소송",
+      "question": "손해배상 청구소송에서 손해액 입증 책임은 누구에게 있나요?",
+      "ground_truth": "손해배상 청구소송에서 손해의 발생 및 그 액수에 대한 입증책임은 원칙적으로 손해배상을 청구하는 자(원고)에게 있다.",
+      "expected_keywords": ["입증책임", "원고", "손해", "발생", "액수"],
+      "difficulty": "medium",
+      "rag_advantage": "medium"
+    },
+    {
+      "id": "procedure_010",
+      "category": "procedure_detail",
+      "subcategory": "가사",
+      "question": "상속재산분할 시 특별수익자의 구체적 상속분 계산 방법은?",
+      "ground_truth": "특별수익자의 구체적 상속분은 상속개시시의 상속재산에 특별수익을 가산한 금액을 상속분으로 나눈 후, 그 금액에서 특별수익액을 공제하여 계산한다.",
+      "expected_keywords": ["특별수익", "구체적 상속분", "가산", "공제", "상속재산"],
+      "difficulty": "hard",
+      "rag_advantage": "high"
+    }
+  ]
+}

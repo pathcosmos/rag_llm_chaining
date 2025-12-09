@@ -1,0 +1,29 @@
+{
+  "total_tests": 100,
+  "overall": {
+    "llm_keyword_avg": 0.6416666666666664,
+    "rag_keyword_avg": 0.6974999999999999,
+    "llm_time_avg": 4.9558,
+    "rag_time_avg": 4.8258
+  },
+  "comparison": {
+    "rag_wins": 17,
+    "llm_wins": 2,
+    "ties": 81,
+    "rag_win_rate": 17.0
+  },
+  "by_category": {
+    "legal": {
+      "count": 75,
+      "llm_avg": 0.856,
+      "rag_avg": 0.93,
+      "improvement": 0.074
+    },
+    "general": {
+      "count": 25,
+      "llm_avg": 0.0,
+      "rag_avg": 0.0,
+      "improvement": 0.0
+    }
+  }
+}

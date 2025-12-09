@@ -1,0 +1,134 @@
+
+12/08 21:46:29 [[1;32mNOTICE[0m] Downloading 17 item(s)
+
+12/08 21:46:29 [[1;31mERROR[0m] CUID#7 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/.gitattributes
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/.gitattributes
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:29 [[1;32mNOTICE[0m] Download GID#49893d5395c1d6f3 not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/.gitattributes
+
+12/08 21:46:29 [[1;32mNOTICE[0m] Download complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/LICENSE
+
+12/08 21:46:30 [[1;31mERROR[0m] CUID#10 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/USE_POLICY.md
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/USE_POLICY.md
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:30 [[1;32mNOTICE[0m] Download GID#1c5eba41bbe55faa not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/USE_POLICY.md
+
+12/08 21:46:30 [[1;31mERROR[0m] CUID#11 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/config.json
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/config.json
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:30 [[1;32mNOTICE[0m] Download GID#2db185e4225f9939 not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/config.json
+
+12/08 21:46:30 [[1;32mNOTICE[0m] Download complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/README.md
+
+12/08 21:46:30 [[1;31mERROR[0m] CUID#12 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/generation_config.json
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/generation_config.json
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:30 [[1;32mNOTICE[0m] Download GID#bcd200e5e02010a2 not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/generation_config.json
+
+12/08 21:46:30 [[1;31mERROR[0m] CUID#13 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/model-00001-of-00004.safetensors
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/model-00001-of-00004.safetensors
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:30 [[1;32mNOTICE[0m] Download GID#225c3034e608ce0c not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/model-00001-of-00004.safetensors
+[DL:59KiB][#1d3018 0B/0B][#2258ff 0B/0B]
+
+12/08 21:46:30 [[1;31mERROR[0m] CUID#15 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/model-00003-of-00004.safetensors
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/model-00003-of-00004.safetensors
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:30 [[1;32mNOTICE[0m] Download GID#2258ff712dd79fcc not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/model-00003-of-00004.safetensors
+
+12/08 21:46:30 [[1;31mERROR[0m] CUID#14 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/model-00002-of-00004.safetensors
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/model-00002-of-00004.safetensors
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:30 [[1;32mNOTICE[0m] Download GID#1d3018f814325bf2 not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/model-00002-of-00004.safetensors
+
+12/08 21:46:31 [[1;31mERROR[0m] CUID#17 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/model.safetensors.index.json
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/model.safetensors.index.json
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:31 [[1;32mNOTICE[0m] Download GID#69b9bf6358e681b4 not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/model.safetensors.index.json
+
+12/08 21:46:31 [[1;31mERROR[0m] CUID#16 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/model-00004-of-00004.safetensors
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/model-00004-of-00004.safetensors
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:31 [[1;32mNOTICE[0m] Download GID#b8bce0b494418c61 not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/model-00004-of-00004.safetensors
+
+12/08 21:46:31 [[1;31mERROR[0m] CUID#18 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/original/consolidated.00.pth
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/original/consolidated.00.pth
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:31 [[1;32mNOTICE[0m] Download GID#c5911599b4ad9376 not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/original/consolidated.00.pth
+
+12/08 21:46:31 [[1;31mERROR[0m] CUID#19 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/original/params.json
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/original/params.json
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:31 [[1;32mNOTICE[0m] Download GID#3ebc2b7277bb4dee not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/original/params.json
+
+12/08 21:46:31 [[1;31mERROR[0m] CUID#20 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/original/tokenizer.model
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/original/tokenizer.model
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:31 [[1;32mNOTICE[0m] Download GID#73ccc1997def8bc7 not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/original/tokenizer.model
+
+12/08 21:46:31 [[1;31mERROR[0m] CUID#21 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/special_tokens_map.json
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/special_tokens_map.json
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:31 [[1;32mNOTICE[0m] Download GID#265da3c28cad62e3 not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/special_tokens_map.json
+
+12/08 21:46:31 [[1;31mERROR[0m] CUID#22 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/tokenizer.json
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/tokenizer.json
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:31 [[1;32mNOTICE[0m] Download GID#75d1c6f5e9c6e577 not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/tokenizer.json
+
+12/08 21:46:31 [[1;31mERROR[0m] CUID#23 - Download aborted. URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/tokenizer_config.json
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/tokenizer_config.json
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+
+12/08 21:46:31 [[1;32mNOTICE[0m] Download GID#21ebbca45579d317 not complete: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/tokenizer_config.json
+
+다운로드 결과:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+49893d|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/.gitattributes
+11ab8d|OK  |   744KiB/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/LICENSE
+1c5eba|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/USE_POLICY.md
+2db185|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/config.json
+e0b4ae|OK  |   194KiB/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/README.md
+bcd200|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/generation_config.json
+225c30|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/model-00001-of-00004.safetensors
+2258ff|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/model-00003-of-00004.safetensors
+1d3018|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/model-00002-of-00004.safetensors
+69b9bf|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/model.safetensors.index.json
+b8bce0|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/model-00004-of-00004.safetensors
+c59115|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/original/consolidated.00.pth
+3ebc2b|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/original/params.json
+73ccc1|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/original/tokenizer.model
+265da3|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/special_tokens_map.json
+75d1c6|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/tokenizer.json
+21ebbc|ERR |       0B/s|/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/tokenizer_config.json
+
+상태 설명:
+(OK):다운로드 완료.(ERR):오류 가 발생 하 다.
+
+aria2는 다운로드를 다시 시작합니다.
+오류가 발생하면 로그 파일을 보십시오. 자세한 내용은 help/man 페이지의 '-l' 옵션 항목을 보십시오.
+📦 Downloading: meta-llama/Llama-3.1-8B-Instruct
+📁 Location: /home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b
+⚡ Speed limit: 80 Mbps (10M/s)
+📄 Files: 17
+--------------------------------------------------
+
+🚀 Starting download with aria2c...
+   Command: aria2c --input-file=/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/aria2_input.txt --dir=/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b --max-download-limit=10M --max-concurrent-downloads=2...
+
+❌ Download failed: Command '['aria2c', '--input-file=/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b/aria2_input.txt', '--dir=/home/lanco/cursor/temp_git/rag_llm_chaining/models/llama3.1-8b', '--max-download-limit=10M', '--max-concurrent-downloads=2', '--split=4', '--max-connection-per-server=4', '--min-split-size=10M', '--continue=true', '--console-log-level=notice', '--summary-interval=30']' returned non-zero exit status 22.

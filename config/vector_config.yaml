@@ -1,0 +1,78 @@
+# Vector Database Configuration
+
+# ChromaDB Settings (Primary)
+chromadb:
+  persist_directory: "./data/embeddings/chroma"
+  collection_name: "korean_legal_docs"
+  distance_function: "cosine"  # cosine, l2, ip
+
+  # Collection metadata
+  metadata:
+    description: "Korean Legal Documents for RAG"
+    embedding_model: "BAAI/bge-m3"
+    embedding_dimensions: 1024
+
+# Chunking Strategy
+chunking:
+  # 법률 문서용 청킹 전략
+  strategy: "recursive"  # recursive, sentence, fixed
+  chunk_size: 1000
+  chunk_overlap: 200
+  separators:
+    - "\n\n"
+    - "\n"
+    - "。"
+    - "."
+    - " "
+    - ""
+
+  # 메타데이터 추출
+  extract_metadata:
+    - "source"
+    - "title"
+    - "date"
+    - "category"
+    - "law_number"
+
+# Retrieval Settings
+retrieval:
+  # 기본 검색 설정
+  top_k: 5
+  score_threshold: 0.7
+
+  # 리랭킹 설정
+  reranking:
+    enabled: true
+    model: "BAAI/bge-reranker-v2-m3"
+    top_n: 3
+
+  # 하이브리드 검색
+  hybrid:
+    enabled: false
+    sparse_weight: 0.3
+    dense_weight: 0.7
+
+# Index Settings
+index:
+  # HNSW 인덱스 설정
+  hnsw:
+    space: "cosine"
+    ef_construction: 200
+    M: 16
+    ef_search: 100
+
+# Data Sources
+data_sources:
+  # 법률 데이터
+  legal:
+    - name: "법률 QA"
+      path: "./data/raw/legal_qa"
+      format: "json"
+
+    - name: "판례"
+      path: "./data/raw/court_cases"
+      format: "json"
+
+    - name: "법령"
+      path: "./data/raw/laws"
+      format: "json"
