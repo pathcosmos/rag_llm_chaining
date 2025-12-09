@@ -3,23 +3,34 @@
 .env.local
 .env.*.local
 
-# SSH Keys
+# SSH Keys & Secrets
 *.pem
 *.key
 id_*
+**/aria2_input.txt
 
-# Model files (too large)
+# Model files (too large for git)
 *.bin
 *.safetensors
 *.gguf
 *.pt
+*.pth
 *.onnx
+*.h5
+models/
 
-# Data files
+# Data files (large/generated)
 data/raw/
 data/embeddings/
+data/checkpoints/
 *.parquet
 *.arrow
+*.pkl
+*.pickle
+
+# VectorDB
+chroma/
+*.sqlite3
 
 # Python
 __pycache__/
@@ -30,15 +41,32 @@ venv/
 env/
 .eggs/
 *.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # IDE
 .idea/
 .vscode/
 *.swp
+*.swo
+*~
 
 # Jupyter
 .ipynb_checkpoints/
+*.ipynb_output/
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Claude Code
+.claude/
+
+# Logs (optional - uncomment if you want to track logs)
+# logs/
+
+# Build artifacts
+dist/
+build/
+*.egg
